@@ -1,0 +1,23 @@
+let ele1=document.createElement("h1");
+ele1.textContent="Hello, This is H1 Tag";
+document.body.appendChild(ele1);
+let para1=document.createElement("p");
+para1.innerHTML="This is a Paragraph";
+document.body.appendChild(para1);
+let para2=document.createElement("p");
+para2.innerHTML="This is a paragraph 2";
+document.body.appendChild(para2);
+para2.innerText+="\nThis is modified paragraph 2";
+// let br=document.createElement("br");
+// document.body.appendChild(br);
+document.body.appendChild(para2);
+
+// const tcontentexample = document.querySelector("h1");
+// const innerhtmlexample = document.querySelector("h2");
+// const innertextexample = document.querySelector("h3");
+// tcontentexample.style.color = "white";
+// tcontentexample.style.backgroundColor = "black";
+// tcontentexample.style.textAlign = "center";
+// innerhtmlexample.style.cssText = `color: white;  background-color: black;  text-align:center`;
+// innertextexample.classList.add("classList");
+// innertextexample.classList.remove("classList");

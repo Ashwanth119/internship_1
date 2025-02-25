@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developing a Form</title>
+    <style>
+        #div{
+            border:2px solid black;
+            width: 25vw;
+            padding: 10px;
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <script src="./developForm.js"></script>
+    <div id="div">
+        <form name="form" action="" method="post" style="text-align:center">
+            First Name: <input type="text" id="fName" name="firstName" placeholder="Enter your First name" required><br/><br/>
+            Last Name: <input type="text" id="lName" name="lastName" placeholder="Enter your Last name" required><br/><br/>
+            Gender: <input type="radio" id="radio_1" name="gender" value="Male"> Male
+            <input type="radio" id="radio_2" name="gender" value="Female"> Female<br/><br/>
+            DOB: <input type="date" id="date" name="date"><br/><br/>
+            Email: <input type="email" id="email" placeholder="Enter your email" required><br/><br/>
+            Contact: <input type="text" id="phNo" name="Contact" placeholder="Enter your mobile number" required><br/><br/>
+            <input type="checkbox" id="check" name="check"> To receive messages through Whatsapp <br/><br/>
+            <!-- <input type="submit" id="submit" name="submit" onclick="createObject()"><br/><br/> -->
+            <button type="button" onclick="createObject()">Submit</button>
+        </form>
+    </div>
+    <div id="controls" style="margin: 20px;">
+        <input type="text" id="search" placeholder="Search on Entire Table">
+        <button onclick="search()">Search</button><br/><br/>
+        <input type="text" id="filter" placeholder="Filter by Last Name">
+        <button onclick="filter()">Filter</button><br/><br/>
+        <button onclick="sortTable()">Sort</button>
+        <button onclick="deleteAll()">Delete All</button>
+    </div>
+    <div id="pagination" style="margin: 20px;">
+        <select id="row_count" onclick="display()">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+        <!-- <input type="text" id="row_count" placeholder="Enter row count to display"> -->
+        <button id="prev" onclick="dec()">Prev</button>
+        <button id="next" onclick="inc()">Next</button>
+    </div>
+</body>
+</html>

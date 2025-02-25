@@ -1,0 +1,14 @@
+span {
+    display: inline-block;
+    text-align: center;
+    /* display: grid;
+    place-items: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100px;  Adjust as needed */
+    /* height: 100px; Adjust as needed */
+}
+#div3{
+    text-align:right;
+}

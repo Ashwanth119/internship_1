@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .formClass {
+            color:blue;
+            text-align:center;
+            /* display:flex;
+            align-items:center ; */
+            /* justify-content: center; */
+
+        }
+    </style>
+    <script src="./form.js"></script>
+</head>
+<body>
+    <form action="" method="post" class="formClass">
+        <!-- <fieldset> -->
+        First Name: <input type="text" id="fName" name="firstName" required><br/><br/>
+        Last Name: <input type="text" id="lName" name="lastName" required><br/><br/>
+        Gender: <input type="radio" id="radio_1" name="gender" value="Male"> Male
+        <input type="radio" id="radio_2" name="gender" value="Female"> Female<br/><br/>
+        DOB: <input type="date" id="date" name="date"><br/><br/>
+        Email: <input type="email" id="email" name="email" required><br/><br/>
+        Contact: <input type="text" id="phNo" name="Contact" required><br/><br/>
+        Education: 
+        <select id="study" name="study">
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+        </select>
+        <br/><br/>
+        About You: <input type="textarea" id="tArea" name="description"><br/><br/>
+        <input type="submit" id="submit" name="submit" onclick="display()"><br/><br/>
+        <!-- </fieldset> -->
+    </form>
+</body>
+</html>
