@@ -1,0 +1,31 @@
+/* variable */
+ul {
+  padding: 0px;
+}
+
+.List {
+  display: flex;
+  justify-content: space-around;
+  background-color: #dddddd;
+  margin: 10px 80px;
+}
+.List div {
+  width: 25%;
+  text-align: center;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  /* Nesting  */
+}
+.Form p {
+  margin: 5px 0px;
+}
+.Form button {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=First.css.map */
