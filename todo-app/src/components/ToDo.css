@@ -1,0 +1,35 @@
+.addTask{
+    background-color: green;
+    color:white;
+}
+
+
+.toDoRow{
+    display:flex;
+    justify-content:space-around;
+    background-color: #dddddd;
+    margin:5px 20%;
+}
+
+.taskId{
+    width:10%;
+}
+.taskTitle{
+    width:30%;
+}
+.taskDes{
+    width:30%;
+}
+
+.edit{
+    background-color: green;
+    color:white;
+}
+.delete{
+    background-color: red;
+    color:white;
+}
+
+
+
+ 
